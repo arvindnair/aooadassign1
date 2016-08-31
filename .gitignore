@@ -1,0 +1,12 @@
+# MacOS Files
+.DS_Store
+
+# Non-Windows files
+Makefile*
+*~
+.depend*
+
+# Windows Files
+*.sln
+*.suo
+*.vcproj*

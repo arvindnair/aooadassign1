@@ -1,0 +1,19 @@
+// $Id: Array.mpc 1469 2014-01-15 00:17:27Z hillj $
+
+project (Array) {
+  exename = Array
+ // install = .
+
+  Source_Files {
+    Array.cpp
+    driver.cpp
+  }
+
+  Header_Files{
+    Array.h
+  }
+
+  Inline_Files {
+    Array.inl
+  }
+}
